@@ -1,0 +1,22 @@
+GET http://localhost:3001/api/persons/
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+"name": "Ding Dong",
+"number": "55-32-7621122"
+}
+
+# {
+# "name": "Arto Hellas",
+# "number": "55-32-7621122"
+# }
+
+# {
+# "name": "Arto Hella"
+# }
+
+###
+DELETE http://localhost:3001/api/persons/4218356
